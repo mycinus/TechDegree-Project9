@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+input[type=search] {
+    padding: 10px 10px 10px 10px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 480px;
+    border: 1px solid black;
+    cursor: pointer;
+} 
+
+input:focus {
+    color: black;
+}
+
+.photo {
+    float: left;
+    width: 180px;
+    margin: 20px;
+
+}
+
+
+.photo-slides {
+    display: inline-block;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 150px;
+} 

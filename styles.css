@@ -1,0 +1,203 @@
+
+body {
+  background-color: azure;
+
+}
+
+#about {
+  background-image: url('../images/background\ pic.jpg');
+  background-size: cover;
+  height: 400px;
+  background-color: azure;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+
+.intro {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.propic {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 100%;
+
+}
+
+.about-list {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.content {
+
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.btn.btn-primary {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  height: 425px;
+  list-style-type: none;
+}
+
+.card:hover {
+  border-color: navy;
+}
+
+
+/*     Footer     */
+
+hr {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 20px 0 40px 20px;
+    margin: auto;
+  }
+  
+  footer .copyright {
+    top: -8px;
+    font-size: .75em;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  .phone {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  
+  }
+  .email {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  .copyright {
+      margin-top: 15px;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .5s;
+  }
+  a.facebook {
+    background-image: url(../images/fblogo.svg);
+  }
+  a.linkedin {
+    background-image: url(../images/ln.svg);
+  }
+  a.github {
+    background-image: url(../images/github.svg);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+
+
+  @media (min-width: 768px) {
+
+    .propic {
+      width: 125px;
+      height: 125px;
+      border-radius: 100%;
+
+    }
+
+  }
+
+  .intro {
+    padding: 5px;
+  }
+
+
+
+  @media (min-width: 1024px) {
+
+    .propic {
+      width: 160px;
+      height: 160px;
+    }
+
+    .intro {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    #about {
+      height: 500px;
+    }
+
+    .card {
+        margin-left: 100px;
+        width: 20rem;
+    }
+
+    #card-container {
+
+      width: 100%;
+    }
+
+    .email{
+      font-size: 18px;
+    }
+
+    .phone {
+      font-size: 18px;
+    }
+
+  }
